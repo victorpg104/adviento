@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#180f18">
+<title>Solo para la chiquii ❤️</title>
+<style>
+:root{--wine:#6f243f;--rose:#e9a9b8;--cream:#fff4e9;--ink:#180f18;--gold:#d9b878}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 15% 5%,#54253c 0,#211321 38%,#100d14 100%);color:var(--cream);font-family:Georgia,'Times New Roman',serif}
+button,a{font:inherit}.hidden{display:none!important}
+.wrap{width:min(900px,92%);margin:auto}
+.eyebrow{letter-spacing:.22em;text-transform:uppercase;font:600 .7rem Arial,sans-serif;color:var(--gold)}
+h1,h2,h3,p{margin-top:0}h1{font-size:clamp(2.7rem,9vw,5.8rem);line-height:.95;margin:.5rem 0 1rem}h2{font-size:clamp(1.8rem,5vw,3rem)}p{line-height:1.65;color:#f5dfe5}
+.card{background:#ffffff0d;border:1px solid #e9a9b83b;border-radius:22px;padding:clamp(20px,4vw,34px);backdrop-filter:blur(8px);box-shadow:0 18px 60px #0003}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 20px;border-radius:999px;border:1px solid var(--gold);background:linear-gradient(120deg,#8b3655,#54223e);color:white;text-decoration:none;cursor:pointer;transition:.2s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.15)}.btn.secondary{background:#ffffff0b;border-color:#e9a9b877}
+#gate{min-height:100svh;display:grid;place-items:center;padding:28px 0;text-align:center}
+.gate-card{max-width:560px;width:100%;padding:clamp(26px,6vw,52px)}
+.heart{font-size:2.4rem;color:var(--rose);animation:pulse 1.8s infinite}@keyframes pulse{50%{transform:scale(1.14)}}
+input{width:100%;padding:15px 17px;border-radius:12px;border:1px solid #e9a9b877;background:#140e17;color:white;font-size:1rem;margin:12px 0}
+#error{color:#ffb5c2;min-height:1.5em;font: .9rem Arial,sans-serif}
+header{padding:26px 0;border-bottom:1px solid #ffffff1a}.nav{display:flex;justify-content:space-between;align-items:center;gap:12px}.nav strong{letter-spacing:.1em;font:700 .8rem Arial,sans-serif}
+.hero{padding:90px 0 65px;text-align:center}.hero .sub{max-width:600px;margin:0 auto 25px}
+section{padding:32px 0 55px}.section-head{text-align:center;margin-bottom:25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.tile{padding:23px;border-radius:18px;background:#ffffff0c;border:1px solid #ffffff20;min-height:170px}
+.tile .emoji{font-size:2rem}.tile h3{margin:12px 0 8px;color:#ffe5ec}
+.note{font-style:italic;color:#f3c9d4}
+.big-quote{font-size:clamp(1.35rem,4vw,2rem);line-height:1.45;text-align:center;color:#ffe5ec}
+.music-list{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.memory{border:1px dashed #d9b87888;border-radius:15px;padding:18px;text-align:center}
+footer{text-align:center;padding:35px 0 55px;color:#c9aeb9;font-size:.9rem}
+.small{font: .8rem/1.5 Arial,sans-serif;color:#cdb9c2}
+#surprise{min-height:80px;display:grid;place-items:center;text-align:center;font-size:1.3rem;color:#ffe5ec}
+@media(max-width:600px){.hero{padding:65px 0 45px}.nav{align-items:flex-start}.nav .btn{padding:10px 13px;font-size:.85rem}}
+</style>
+</head>
+<body>
+<div id="gate">
+  <div class="wrap">
+    <div class="card gate-card">
+      <div class="heart">♥</div>
+      <div class="eyebrow">Acceso privado · Solo para una persona</div>
+      <h1>Hola,<br>ratoncita.</h1>
+      <p>He preparado una cosita para ti. Pero antes tendrás que demostrar que has encontrado la clave… 👀</p>
+      <form id="login">
+        <input id="password" type="password" placeholder="Tu contraseña secreta" autocomplete="off" aria-label="Contraseña">
+        <button class="btn" type="submit" style="width:100%">Desbloquear mi sorpresa ✨</button>
+      </form>
+      <div id="error" aria-live="polite"></div>
+      <div class="small">Pista: la respuesta está escondida en los pequeños detalles de tus regalos.</div>
+    </div>
+  </div>
+</div>
+
+<div id="site" class="hidden">
+<header><div class="wrap nav"><strong>CHIQUII EXPERIENCE ✦</strong><a class="btn secondary" href="#carta">Una cosita para ti ↓</a></div></header>
+<main>
+  <div class="wrap">
+    <section class="hero">
+      <div class="eyebrow">14 de diciembre · Una experiencia hecha para ti</div>
+      <h1>Esto es muy<br><span style="color:var(--rose)">nuestro ♥</span></h1>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div class="eyebrow">Que suene de fonde nuestra playlist</div>
+        <div class="eyebrow">(tranquila que yo no canto)</div>
+        <h2>🤍</h2>
+      </div>
+      <div class="card">
+        <div class="music-list">
+          <a class="btn" target="_blank" rel="noopener" href="https://open.spotify.com/playlist/0aWjBgp5sFNDTerdZmUsCg?si=hsprxJZDSp673A1W__49og">ESCUCHAR &nbsp; ▷</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="carta">
+      <div class="section-head"><div class="eyebrow">Sin bromas por un momento</div><h2>Una cosa que quiero que sepas</h2></div>
+      <div class="card">
+        <p class="big-quote">«Me encanta que seas mi cómplice, mi amiga, mi ratoncita, mi castañita, mi chiquii y esa persona con la que cualquier plan puede convertirse en un recuerdo.»</p>
+        <p style="text-align:center">Me encanta nuestra confianza, nuestras tonterías, las conversaciones, las risas y esa forma tan nuestra de compartir momentos. Gracias por ser tú y por hacer que tantos ratitos sean especiales.</p>
+        <p style="text-align:center;color:var(--rose);font-size:1.2rem">Te quiero, chiquii. ❤️</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head"><div class="eyebrow">Un último guiño</div><h2>Certificado oficial</h2></div>
+      <div class="card memory">
+        <div style="font-size:2.2rem">🏆</div>
+        <h3>Premio a la persona más peligrosa para mi tranquilidad</h3>
+        <p>Por exceso de sonrisas, complicidad, antojos de queso y experta para convertir cualquier día normal en uno especial.</p>
+        <div class="eyebrow">Concedido con muchísimo cariño · Válido para siempre</div>
+      </div>
+    </section>
+  </div>
+</main>
+<footer><div class="wrap">Hecho especialmente para ti, chiquii. <span style="color:var(--rose)">♥</span><br><span class="small">PD: Si has llegado hasta aquí, te debo un abrazo. Como mínimo.</span></div></footer>
+</div>
+<script>
+const SECRET_PASSWORD = "1234";
+const form = document.getElementById("login");
+form.addEventListener("submit", function(e){
+  e.preventDefault();
+  const value = document.getElementById("password").value.trim();
+  if(value.toLocaleLowerCase() === SECRET_PASSWORD.toLocaleLowerCase()){
+    document.getElementById("gate").classList.add("hidden");
+    document.getElementById("site").classList.remove("hidden");
+    window.scrollTo(0,0);
+  }else{
+    document.getElementById("error").textContent = "Uy… esa no es. Busca bien entre tus regalitos, ratoncita. 🐭";
+  }
+});
+</script>
+</body>
+</html>
